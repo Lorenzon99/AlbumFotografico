@@ -28,14 +28,10 @@ li a:hover{
 
 }
 h1{text-align: center;}
-@media screen and (max-width: 1920px) and (max-height: 1080px)
-, (min-width: 1366px) and (min-height: 768px)
+@media screen and (max-width: 1920px)
 {
-    body{
-        background-color: white;
-    }
     img{
-        width: 30%;
+        width: 100%;
         height: auto;
         float: left;
         padding: 10px;
@@ -45,9 +41,6 @@ h1{text-align: center;}
 
 @media screen and (min-width: 1387)
 {
-    body{
-        background-color: blue;
-    }
     img{
         width: 100%;
         height: auto;
@@ -56,13 +49,10 @@ h1{text-align: center;}
     }
 }
 
-@media screen and (min-width: 460px) and (min-height: 1920px)
+@media screen and (min-width: 460px)
 {
-    body{
-        background-color: green;
-    }
     img{
-        width: 100%;
+        width: 30%;
         padding-top: 10px;
         padding-bottom: 10px;
         float: bottom;
